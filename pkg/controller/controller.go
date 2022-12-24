@@ -6,6 +6,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/viveksahu26/kubewatchpods/config"
+	"github.com/viveksahu26/kubewatchpods/pkg/pkg/handlers"
 	"github.com/viveksahu26/kubewatchpods/pkg/utils"
 	api_v1 "k8s.io/api/core/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
